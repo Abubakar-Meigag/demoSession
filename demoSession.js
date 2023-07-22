@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('this is a test request for Beko application')
+    res.send('this is a test request for Beko new application')
 })
 
 const port = 3010;
